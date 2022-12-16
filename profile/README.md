@@ -75,6 +75,8 @@
 mkdir compose
 ```
 * docker compose 파일 실행 
+** front-end, back-end, database에 필요한 환경변수 설정
+** front-end, back-end, database가 속할 custom bridge 설정
 ```
 version: "3.8"
 services:
